@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+</head>
+
+<body>
+    <header>SEM SHOP</header>
+    <main>
+        <section class="row container mt-5 ms-5 ">
+            <div class="body-image col-6">
+                <img src="images/mac.png" alt="">
+            </div>
+            <div class="col-6 ">
+                <div class="ms-5">
+                    <h1>Customize your Blue 24-inch iMac with Apple M1 chip.</h1>
+                    <p>Apple M1 chip with 8-core with 4 performance cores and 4 efficincy cores,7-cores GPU,and 16-core
+                        Neural Engine 8GB unified menory 256gb SSD storage Two Thunderbolt/USB 4 ports Magic Mouse Magic
+                        Keyboard US English.</p>
+                </div>
+                <div class="mt-5 ms-5">
+                    <h1>Memory</h1>
+                    <button id="memory-btn1" class="btn btn-outline-dark">8GB unified memory</button>
+                    <button id="memory-btn2" class="btn btn-outline-secondary">16GB unified memory</button>
+                </div>
+                <div class="mt-5 ms-5">
+                    <h1>Storage</h1>
+                    <div class="grid gx-5">
+                        <button id="storage-btn1" class="btn btn-outline-dark">256GB SSD storage</button>
+                        <button id="storage-btn2" class="btn btn-outline-secondary">512GB SSD storage</button>
+                        <button id="storage-btn3" class="btn btn-outline-secondary">1TB SSD storage</button>
+                    </div>
+                </div>
+                <div class="mt-5 ms-5">
+                    <h1>Choose your delivery option</h1>
+                    <button id="delivery-btn1" class="btn btn-outline-dark">Friday,Aug 25 free Prime Delivery</button>
+                    <button id="delivery-btn2" class="btn btn-outline-secondary">Friday,Aug 21 Delivery charge
+                        $20</button>
+                </div>
+                <div class="mt-5 ms-5">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <th scope="row">Best Price</th>
+                                <td>$<span id="base-cost">1299</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Extra Memory Cost</th>
+                                <td>$<span id="Memory-cost">0</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Extra Storage Cost</th>
+                                <td>$<span id="storage-cost">0</span></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">Delivery Charge</th>
+                                <td>$<span id="delivery-cost">0</span></td>
+                            </tr>
+
+                            <hr class="border-5">
+                            <tr>
+                                <th scope="row">Total Price</th>
+                                <td id="total">$<span id="total-cost">1299</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class=" mt-5 ms-5">
+                    <h5>Add Promo code</h5>
+                    <div class="input-group mb-3 mt-3">
+                        <input id="discount_field" class="form-control " type="text"
+                            placeholder="Add Promo code 20% discount " aria-label="Recipient's username"
+                            aria-describedby="button-addon2">
+                        <button id="discount-btn" class="btn btn-outline-secondary bg-danger text-white">Aplly</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div>
+                <h1 class="text-center">$ <span id="overAllPrice">1299</span></h1>
+            </div>
+
+        </section>
+    </main>
+    <script src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
